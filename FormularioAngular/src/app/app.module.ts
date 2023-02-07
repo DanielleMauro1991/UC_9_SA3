@@ -7,18 +7,24 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './views/login/login.component';
 import { ContatoComponent } from './views/contato/contato.component';
 import { HeaderComponent } from './views/header/header.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     ContatoComponent,
-    HeaderComponent
+    HeaderComponent,
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    MatToolbarMododule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
