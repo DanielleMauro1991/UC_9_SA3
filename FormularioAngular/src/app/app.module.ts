@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './views/login/login.component';
 import { ContatoComponent } from './views/contato/contato.component';
+import { HeaderComponent } from './views/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    ContatoComponent
+    ContatoComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
